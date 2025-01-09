@@ -1,0 +1,47 @@
+.card {
+    background: linear-gradient(#d43737 0%, #f34f04 100%);
+    width: 17%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 2.5%;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardText {
+    font-size: medium;
+    text-align: center;
+    
+}
+
+.pkmnImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.pkmnImage img{
+    width: 150px;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.textpanel{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+}
