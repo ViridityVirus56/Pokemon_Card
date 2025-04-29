@@ -17,7 +17,7 @@ const Pokecard = ({ id, name, types = [], img, moves = [], desc = [] }) => {
     fighting: gifBackground,
   };
 
-  const background = backgroundMap[type1] || gifBackground;
+  const background = backgroundMap[type1] || null;
 
   return (
     <div
