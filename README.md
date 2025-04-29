@@ -1,3 +1,8 @@
-# Pokemon_Card
+# React + Vite
 
-A simple UI based website that use the PokeAPI to make API calls on the pokemon data related to the user's input and renders it in the form of a card. Any UI/UX tips are highly appreciated :)).
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

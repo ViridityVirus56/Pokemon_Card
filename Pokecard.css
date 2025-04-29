@@ -1,0 +1,38 @@
+.card {
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    font-family: 'gothmomy', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+  }
+  
+  .topBar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .cardText {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .pkmnImage {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .pkmnImage img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .textpanel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
